@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --dark-main: #363431;
+    --light-main: #FCF5EB;
+    --red-main: #FA4738;
+
+}
+
+.dark-theme {
+    --foreground-primary: var(--light-main);
+    --background-primary: var(--dark-main);
+    --btn-border: var(--light-main);
+}
+
+.light-theme {
+    --foreground-primary: var(--dark-main);
+    --background-primary: var(--light-main);
+    --btn-border: var(--dark-main);
+}
+
+.red-theme {
+    --foreground-primary: var(--light-main);
+    --background-primary: var(--red-main);
+    --btn-border: var(--light-main);
+}
+
+body {
+    color: var(--foreground-primary);
+    background-color: var(--background-primary);
+    font-family: "Roboto Mono", monospace;
+}
+
+a {
+    color: var(--foreground-primary);
+}
+
+hr {
+    border: 1px dotted var(--foreground-primary);
+    opacity: 80%;
+    margin-top: 2rem;
+}
+
+.header {
+    padding-top: 1em;
+    margin-bottom: 2em;
+}
+
+.nav {
+    width: 90vw;
+    max-width: 80ch;
+    display: block;
+    margin: 0 auto;
+}
+
+.nav-list {
+    /* text-align: center; */
+    width: 100%;
+}
+
+.nav-list-item {
+    list-style: none;
+    display: inline-block;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+
+.main > .main-section {
+    margin-bottom: 2rem;
+}
+
+.main-intro {
+    /* height: 10rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.mail-btn {
+    border: 1px solid var(--foreground-primary);
+}
+
+.intro-info-container {
+    height: 20%;
+    text-align: center;
+
+}
+
+.intro-title {
+    font-weight: 200;
+}
+
+.intro-email {
+    font-weight: 400;
+    margin-top: 2em;
+}
+
+/* Theme Changing Buttons */
+
+.color-themes {
+    list-style: none;
+    display: inline-block;
+}
+
+.color-theme {
+    display: inline-block;
+}
+
+.theme-btn {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid var(--btn-border);
+}
+
+.theme-btn:hover {
+    cursor: pointer;
+}
+
+#dark {
+    background-color: var(--dark-main);
+}
+
+#light {
+    background-color: var(--light-main);
+}
+
+#red {
+    background-color: var(--red-main);
+}
+
+
+/* */
+
+.main-section {
+    margin: 0 auto;
+    width: 90vw;
+    max-width: 80ch;
+}
+
+.section-title {
+    font-size: 14pt;
+    font-weight: 400;
+    margin-bottom: 0.25em;
+}
+
+.project-keywords {
+    font-weight: 100;
+    font-size: 12pt;
+    margin-bottom: 1.5em;
+}
+
+.project-body {
+    font-weight: 300;
+    font-size: 1rem;
+    margin-bottom: 1.25rem;
+}
