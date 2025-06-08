@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --foreground-primary: #FCF5EB;
+    /* --foreground-secondary: ; */
+    --background-primary: #363431;
+    /* --background-secondary: ; */
+    /* --accent-primary: ; */
+    /* --accent-secondary: ; */
+}
+
+body {
+    color: var(--foreground-primary);
+    background-color: var(--background-primary);
+    font-family: "Roboto Mono", monospace;
+}
+
+a {
+    color: var(--foreground-primary);
+}
+
+hr {
+    margin-top: 1em;
+    border: 1px dotted var(--foreground-primary);
+    opacity: 80%;
+
+}
+
+.header {
+    padding-top: 1em;
+    margin-bottom: 2em;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    width: 90vw;
+    max-width: 80ch;
+    display: block;
+    margin: 0 auto;
+}
+
+.nav-list {
+    /* text-align: center; */
+    width: 100%;
+}
+
+.nav-list-item {
+    list-style: none;
+    display: inline-block;
+}
+
+.main>section {
+    margin-bottom: 2.5em;
+}
+
+.main-intro {
+    /* height: 10rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .intro-headshot-container {
+    height: 80%;
+    max-height: 90vw;
+    margin-bottom: 1em;
+    text-align: center;
+} */
+
+.intro-info-container {
+    height: 20%;
+    text-align: center;
+
+}
+
+/* .intro-headshot {
+    height: 100%;
+    max-width: 90vw;
+    border-radius: 50%;
+} */
+
+.intro-title {
+    font-weight: 200;
+}
+
+.intro-email {
+    font-weight: 400;
+    margin-top: 2em;
+}
+
+.color-themes {
+    list-style: none;
+    display: inline-block;
+}
+
+.color-theme {
+    display: inline-block;
+}
+
+.theme-btn {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.theme-btn:hover {
+    cursor: pointer;
+}
+
+#dark {
+    background-color: #363431;
+}
+
+#light {
+    background-color: #FCF5EB;
+}
+
+#red {
+    background-color: #FA4738;
+}
+
+.main-section {
+    margin: 0 auto;
+    width: 90vw;
+    max-width: 80ch;
+}
+
+.section-title {
+    font-size: 14pt;
+}
+
+.project-keywords {
+    font-weight: 200;
+    font-size: 12pt;
+    margin-bottom: 1em;
+}
+
+.project-body {
+    font-weight: 400;
+    font-size: 12pt;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/dark.css" id="link-style">
+    <script src="js/app.js"></script>
+    <title>Chandler Duffey</title>
+</head>
+
+<body>
+    <header class="header">
+        <!-- The nav bar consists of links to github and linkedin -->
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-list-item">
+                    <a class="nav-list-item-link" rel="noopener noreferrer" target="_blank"
+                        href="https://github.com/channieduffman">GitHub</a>
+                </li>
+                <li class="nav-list-item"> | </li>
+                <li class="nav-list-item">
+                    <a class="nav-list-item-link" rel="noopener noreferrer" target="_blank"
+                        href="https://linkedin.com/in/chandler-duffey">
+                        LinkedIn</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="main-intro">
+            <!-- <div class="intro-headshot-container">
+                <img class="intro-headshot" src="assets/headshot.png" alt="Headshot Photo">
+            </div> -->
+            <h1 class="intro-name">Chandler Duffey</h1>
+            <h3 class="intro-title">Software Engineer</h3>
+            <h4 class="intro-email"><a href="mailto:chandlerduffey@gmail.com" target="_blank"
+                    rel="noopener noreferrer">Email Me</a></h4>
+        </section>
+        <section class="main-section">
+            <h2 class="section-title">Change Theme</h2>
+            <h4 class="project-keywords"></h4>
+            <ul class="color-themes">
+                <li class="color-theme"><button onclick="changeStyle('dark')" class="theme-btn" id="dark"></button></li>
+                <li class="color-theme"><button onclick="changeStyle('light')" class="theme-btn" id="light"></button>
+                </li>
+                <li class="color-theme"><button onclick="changeStyle('red')" class="theme-btn" id="red"></button></li>
+                </li>
+            </ul>
+        </section>
+        <section class="main-section">
+            <h2 class="section-title">Profile</h2>
+            <h4 class="project-keywords"></h4>
+            <p class="project-body">Driven and resourceful Software Engineer with a non-traditional path, honed by years
+                in high-pressure
+                service roles.
+            </p>
+            <br>
+            <p class="project-body">Exceptional self-sufficiency and rapid learning ability allow quick acquisition of
+                technical
+                skills, evidenced by diverse personal projects.</p>
+            <br>
+            <p class="project-body">Committed to leveraging a proactive work ethic and
+                practical
+                expertise in automation, system design, and API development to drive impactful results.</p>
+            <hr>
+        </section>
+        <section class="main-section">
+            <h2 class="section-title">Command-Line Encryption Tool</h2>
+            <h4 class="project-keywords">Java, Gradle, Picocli</h4>
+            <p class="project-body">A Unix-like tool that takes one or more files as input and
+                encrypts (or decrypts) them using AES encryption.</p>
+            <br>
+            <p class="project-body">Key challenges faced include securely interacting with the filesystem,
+                designing a robust and modular application, and secret key storage.</p>
+            <br>
+            <p class="project-body"><a target="_blank" href="https://github.com/channieduffman/encli"
+                    class="paragraph-link">View
+                    Repository</a></p>
+            <hr>
+        </section>
+        <section class="main-section">
+            <h2 class="section-title">Crime Data API</h2>
+            <h4 class="project-keywords">Python, FastAPI, Geopy</h4>
+            <p class="project-body">An API that leverages public data made available by the City of Austin to
+                return a list of crime reports filed within a given radius of a user-supplied address.</p>
+            <br>
+            <p class="project-body">Key challenges faced were filtering by classification and optimizing
+                network calls to query the dataset.</p>
+            <br>
+            <p class="project-body"><a target="_blank" href="https://github.com/channieduffman/atx-crime-rating"
+                    class="paragraph-link">View Repository</a></p>
+
+            <hr>
+        </section>
+    </main>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
