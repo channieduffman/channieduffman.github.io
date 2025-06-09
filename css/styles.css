@@ -7,6 +7,8 @@
     --dark-main: #363431;
     --light-main: #FCF5EB;
     --red-main: #FA4738;
+    --brown-main: #6F482C;
+    --brown-light: #F5C99F;
 
 }
 
@@ -26,6 +28,13 @@
     --foreground-primary: var(--light-main);
     --background-primary: var(--red-main);
     --btn-border: var(--light-main);
+}
+
+.brown-theme {
+    --foreground-primary: var(--brown-main);
+    --background-primary: var(--brown-light);
+    --btn-border: var(--brown-main);
+
 }
 
 body {
@@ -139,6 +148,10 @@ hr {
 
 #red {
     background-color: var(--red-main);
+}
+
+#brown {
+    background-color: var(--brown-light);
 }
 
 
