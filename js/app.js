@@ -4,5 +4,4 @@ function changeStyle(theme) {
     if (validThemes.includes(theme)) {
         htmlElem.className = theme;
     }
-
 }
