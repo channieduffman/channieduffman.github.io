@@ -1,10 +1,8 @@
 function changeStyle(theme) {
-    const validThemes = ["dark", "light", "red"];
-    const styleRoot = "css/";
-    let link = document.getElementById("link-style");
+    const validThemes = ["dark-theme", "light-theme", "red-theme"];
+    let htmlElem = document.getElementById("root");
     if (validThemes.includes(theme)) {
-        if (link.hasAttribute("href")) {
-            link.setAttribute("href", `${styleRoot}${theme}.css`);
-        }
+        htmlElem.className = theme;
     }
+
 }
