@@ -9,6 +9,7 @@
     --red-main: #FA4738;
     --brown-main: #6F482C;
     --brown-light: #F5C99F;
+    --ultra-li
 
 }
 
@@ -165,18 +166,18 @@ hr {
 
 .section-title {
     font-size: 14pt;
-    font-weight: 400;
+    font-weight: 500;
     margin-bottom: 0.25em;
 }
 
 .project-keywords {
-    font-weight: 100;
+    font-weight: 200;
     font-size: 12pt;
     margin-bottom: 1.5em;
 }
 
 .project-body {
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1rem;
     margin-bottom: 1.25rem;
 }
