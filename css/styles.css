@@ -183,7 +183,9 @@ hr {
 
 
 video.project-body {
-    height: 100%;
+    border: 1px solid var(--btn-border);
+    height: 240;
     width: 90vw;
     max-width: 80ch;
 }
+
