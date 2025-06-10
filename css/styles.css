@@ -9,7 +9,6 @@
     --red-main: #FA4738;
     --brown-main: #6F482C;
     --brown-light: #F5C99F;
-    --ultra-li
 
 }
 
@@ -85,7 +84,7 @@ hr {
 }
 
 
-.main > .main-section {
+.main>.main-section {
     margin-bottom: 2rem;
 }
 
