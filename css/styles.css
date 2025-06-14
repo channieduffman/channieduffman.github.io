@@ -9,6 +9,8 @@
     --red-main: #FA4738;
     --brown-main: #6F482C;
     --brown-light: #F5C99F;
+    --ultra-dark: #000000;
+    --ultra-light: #FFFFFF;
 
 }
 
@@ -30,10 +32,10 @@
     --btn-border: var(--light-main);
 }
 
-.brown-theme {
-    --foreground-primary: var(--brown-main);
-    --background-primary: var(--brown-light);
-    --btn-border: var(--brown-main);
+.high-contrast-theme {
+    --foreground-primary: var(--ultra-light);
+    --background-primary: var(--ultra-dark);
+    --btn-border: var(--ultra-light);
 
 }
 
@@ -150,8 +152,8 @@ hr {
     background-color: var(--red-main);
 }
 
-#brown {
-    background-color: var(--brown-light);
+#high-contrast {
+    background-color: var(--ultra-dark);
 }
 
 
